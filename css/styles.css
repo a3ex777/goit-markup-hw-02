@@ -1,19 +1,19 @@
-.list_header {
+.list-header {
     list-style: none;
 }
-.list_advantages {
+.list-advantages {
     list-style: none;
 }
-.list_whatwedo {
+.list-whatwedo {
     list-style: none;
     display: inline;
 }
-.list_ourteam_ul {
+.list-ourteam_ul {
     list-style: none;
 }
-.list_ourteam {
+.list-ourteam {
     list-style: none;
 }
-.list_contacts {
+.list-contacts {
     list-style: none;
 }
