@@ -38,10 +38,12 @@
     list-style: none;
 }
 /* The Portfolio - Filters section */
-
-
-
-
+.portfolio-filters-list {
+    display: flex;
+}
+.portfolio-filters-item {
+    list-style: none;
+}
 /* The Portfolio - Filters section */
 .portfolio-project-list {
     list-style: none;
@@ -50,9 +52,6 @@
     list-style: none;
 }
 /* The Portfolio - Project section */
-.portfolio-project-list {
-    list-style: none;
-}
 .portfolio-project-item {
     list-style: none;
 }
