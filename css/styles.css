@@ -29,3 +29,34 @@
 .basement-list {
     list-style: none;
 }
+            /* THE PORTFOLIO SECTION */
+/* The Portfolio - Topline section */
+.portfolio-topline-list {
+    list-style: none;
+}
+.portfolio-topline-list-contacts {
+    list-style: none;
+}
+/* The Portfolio - Filters section */
+
+
+
+
+/* The Portfolio - Filters section */
+.portfolio-project-list {
+    list-style: none;
+}
+.portfolio-project-item {
+    list-style: none;
+}
+/* The Portfolio - Project section */
+.portfolio-project-list {
+    list-style: none;
+}
+.portfolio-project-item {
+    list-style: none;
+}
+/* The Portfolio - Basement section */
+.portfolio-basement-list {
+    list-style: none;
+}
