@@ -18,11 +18,11 @@
     list-style: none;
     display: inline;
 }
-/* The main - Our team section */
-.ourteam-list {
+/* The main - Staff section */
+.staff-list {
     list-style: none;
 }
-.ourteam-item {
+.staff-item {
     list-style: none;
 }
 /* The main - Basement section */
