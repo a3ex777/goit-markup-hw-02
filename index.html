@@ -7,94 +7,101 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <!-- Top line section -->
+    <header class="topline">
     <nav>
-        <a href="#" lang="en">
+        <a class="topline-logo" href="#" lang="en">
             <span style="color: blue;">Web</span><span style="color: black;">Studio</span>
         </a>
-        <ul class="list-header">
-            <li>
-                <a href="#">Студія</a>
+        <ul class="topline-list">
+            <li class="topline-menu-item">
+                <a class="topline-menu-text" href="#">Студія</a>
             </li>
-            <li>
-                <a href="#">Портфоліо</a>
+            <li class="topline-menu-item">
+                <a class="topline-menu-text" href="#">Портфоліо</a>
             </li>
-            <li>
-                <a href="#">Контакти</a>
+            <li class="topline-menu-item">
+                <a class="topline-menu-text" href="#">Контакти</a>
             </li>
         </ul>
     </nav>
-        <ul class="list-header">
+        <ul class="topline-list-contacts">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="topline-contact-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
         </ul>
-        <ul class="list-header">
+        <ul class="topline-list-contacts">
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="topline-contact-text" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
     <main>
-        <section>
-            <h1 style="color: black;">Ефективні рішення для вашого бізнесу</h1>
+        <!-- Cap section -->
+        <section class="cap">
+            <h1 class="cap-title" style="color: black;">Ефективні рішення для вашого бізнесу</h1>
             <button type="button">Замовити послугу</button>
         </section>
-        <section>
-            <ul class="list-advantages">
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+        <!-- Features section -->
+        <section class="features">
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 </li>
-                <li>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-            </ul>
-            <ul class="list-advantages">
-                <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                </li>
-                <li>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <li class="features-item">
+                    <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
             </ul>
-            <ul class="list-advantages">
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
                 </li>
                 <li>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
             </ul>
-            <ul class="list-advantages">
-                <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-title">ПЛАНУВАННЯ</h3>
                 </li>
-                <li>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <li class="features-item">
+                    <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+            </ul>
+            <ul class="features-list">
+                <li class="features-item">
+                    <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                </li>
+                <li class="features-item">
+                    <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <ul>
-                <li class="list-whatwedo">
-                    <h2>Чим ми займаємося</h2>
+        <!-- What do we do section -->
+        <section class="whatwedo">
+            <ul class="whatwedo-list">
+                <li class="whatwedo-item">
+                    <h2 class="whatwedo-title">Чим ми займаємося</h2>
                 </li>
-                <li class="list-whatwedo">
+                <li class="whatwedo-item">
                     <img 
+                    class="whatwedo-pikcer"
                     src="./images/main/whatodo/01.jpg"
                     alt="Работа с кодом"
                     width="370"
                     height="294">
                  </li>
-                <li class="list-whatwedo">
+                <li class="whatwedo-item">
                     <img 
+                    class="whatwedo-pikcer"
                     src="./images/main/whatodo/02.jpg" 
                     alt="Адаптивная работа"
                     width="370"
                     height="294">
                 </li>
-                <li class="list-whatwedo">
+                <li class="whatwedo-item">
                     <img 
+                    class="whatwedo-pikcer"
                     src="./images/main/whatodo/03.jpg" 
                     alt="Работа с цветами"
                     width="370"
@@ -102,76 +109,82 @@
                 </li>
             </ul>
         </section>
-        <section>  
-            <ul class="list-ourteam_ul">
+        <!-- Our team section -->
+        <section class="ourteam">  
+            <ul class="ourteam-list">
                 <li>
-                    <h2>Наша команда</h2>
+                    <h2 class="ourteam-title">Наша команда</h2>
                 </li>
-                <li class="list-ourteam">
+                <li class="ourteam-item">
                     <div>
                         <img 
+                        class="ourteam-pikcer"
                         src="./images/main/ourteam/01.jpg" 
                         alt="Ігор Дем'яненко"
                         width="270"
                         height="260"
                         >
-                        <h3>Ігор Дем'яненко</h3>
-                        <p>Designer</p> 
+                        <h3 class="ourteam-name">Ігор Дем'яненко</h3>
+                        <p class="ourteam-position">Designer</p> 
                     </div>
                 </li>
-                <li class="list-ourteam">
+                <li class="ourteam-item">
                     <div>
-                        <img 
+                        <img
+                        class="ourteam-pikcer" 
                         src="./images/main/ourteam/02.jpg" 
                         alt="Ольга Рєпіна"
                         width="270"
                         height="260"
                         >
-                        <h3>Ольга Рєпіна</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="ourteam-name">Ольга Рєпіна</h3>
+                        <p class="ourteam-position">Frontend Developer</p>
                     </div>
                 </li>
-                <li class="list-ourteam">
+                <li class="ourteam-item">
                     <div>
-                        <img 
+                        <img
+                        class="ourteam-pikcer" 
                         src="./images/main/ourteam/03.jpg" 
                         alt="Микола Тарасов"
                         width="270"
                         height="260"
                         >
-                        <h3>Микола Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="ourteam-name">Микола Тарасов</h3>
+                        <p class="ourteam-position">Marketing</p>
                     </div>
                 </li>
-                <li class="list-ourteam">
+                <li class="ourteam-item">
                     <div>
                         <img 
+                        class="ourteam-pikcer"
                         src="./images/main/ourteam/04.jpg" 
                         alt="Михайло Єрмаков"
                         width="270"
                         height="260"
                         >
-                        <h3>Михайло Єрмаков</h3>
-                        <p>Designer</p> 
+                        <h3 class="ourteam-name">Михайло Єрмаков</h3>
+                        <p class="ourteam-position">Designer</p> 
                     </div>
                 </li>
             </ul>
         </section>  
     </main>
-        <footer>
-            <a href="#" lang="en">
+    <!-- Basement section -->
+        <footer class="basement">
+            <a class="basement-logo" href="#" lang="en">
                 <span style="color: blue;">Web</span><span style="color: black;">Studio</span>
             </a>
-            <address>
-                <ul class="list-contacts">
-                    <li>
-                        <a href="https://maps.app.goo.gl/C6iPVwZeY5e5uYVKA">м. Київ, пр-т Лесі Українки, 26</a>
+            <address class="basement-address">
+                <ul class="basement-list">
+                    <li class="basement-item">
+                        <a class="basement-text" href="https://maps.app.goo.gl/C6iPVwZeY5e5uYVKA">м. Київ, пр-т Лесі Українки, 26</a>
                     </li>
-                    <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="basement-item">
+                        <a class="basement-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <li class="basement-item">
+                        <a class="basement-text" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </address>

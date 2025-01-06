@@ -1,19 +1,31 @@
-.list-header {
+/* The main - top line section */
+.topline-list {
     list-style: none;
 }
-.list-advantages {
+.topline-list-contacts {
     list-style: none;
 }
-.list-whatwedo {
+/* The main - Cap section */
+
+
+
+/* The main - Features section */
+.features-list {
+    list-style: none;
+}
+/* The main - What do we do section */
+.whatwedo-item {
     list-style: none;
     display: inline;
 }
-.list-ourteam_ul {
+/* The main - Our team section */
+.ourteam-list {
     list-style: none;
 }
-.list-ourteam {
+.ourteam-item {
     list-style: none;
 }
-.list-contacts {
+/* The main - Basement section */
+.basement-list {
     list-style: none;
 }
