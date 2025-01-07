@@ -1,7 +1,6 @@
 /* The main - top line section */
 .topline {
     background-color: #ececec; /* Цвет фона */
-    padding: 0 20px; /* Отступы слева и справа */
     height: 80px; /* Высота шапки */
     width: 1600px; /* Ширина шапки */
     display: flex;
@@ -97,13 +96,135 @@
   }
   
   /* The main - Features section */
-  .features-list {
+  .features { 
+    width: 1170px;
+    height: 98px;
+    display: flex;
+  }
+  .features-list-detiles { 
+    width: 270px;
+    height: 98px;
+    position: absolute;
+    top: 774px;
+    left: 215px;
     list-style: none;
   }
-  /* The main - What do we do section */
-  .whatwedo-item {
+  .features-item-detiles h3 { 
+    width: 270px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+  }
+  .features-item-detiles p { 
+    font-size: 14px;
+    font-weight: 400;
+    width: 270px;
+    height: 72px;
+    color: #757575;
+   }
+  .features-list-punctuality { 
+  width: 270px;
+  height: 74px;
+  position: absolute;
+  top: 774px;
+  left: 515px;
+  list-style: none;
+ }
+  .features-item-punctuality h3 { 
+  width: 270px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+ }
+  .features-item-punctuality p { 
+  font-size: 14px;
+  font-weight: 400;
+  width: 270px;
+  height: 48px;
+  color: #757575;
+ }
+  .features-list-planning { 
+    width: 270px;
+    height: 74px;
+    position: absolute;
+    top: 774px;
+    left: 815px;
     list-style: none;
-    display: inline;
+ }
+  .features-item-planning h3 { 
+    width: 270px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+ }
+  .features-item-planning p { 
+    font-size: 14px;
+    font-weight: 400;
+    width: 270px;
+    height: 48px;
+    color: #757575;
+ }
+  .features-list-technologi { 
+    width: 270px;
+    height: 98px;
+    position: absolute;
+    top: 774px;
+    left: 1115px;
+    list-style: none;
+ }
+  .features-item-technologi h3 { 
+    width: 270px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+  }
+  .features-item-technologi p { 
+    font-size: 14px;
+    font-weight: 400;
+    width: 270px;
+    height: 72px;
+    color: #757575;
+  }
+  /* The main - What do we do section */
+  .whatwedo { 
+    width: 1170px;
+    height: 386px;
+    display: flex;
+  } 
+  .whatwedo-list { 
+    list-style: none;
+  }
+  .whatwedo-title { 
+    width: 366px;
+    height: 42px;
+    position: absolute;
+    top: 966px;
+    left: 671px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+  }
+  .whatwedo-item-coding { 
+    list-style: none;
+    position: absolute;
+    top: 1058px;
+    left: 215px;
+  }
+  .whatwedo-item-adaptiv { 
+    list-style: none;
+    position: absolute;
+    top: 1058px;
+    left: 615px;
+  }
+  .whatwedo-item-colors { 
+    list-style: none;
+    position: absolute;
+    top: 1058px;
+    left: 1015px;
   }
   /* The main - Staff section */
   .staff-list {
@@ -120,7 +241,6 @@
   /* The Portfolio - Topline section */
   .portfolio-topline {
     background-color: #ececec; /* Цвет фона */
-    padding: 0 20px; /* Отступы слева и справа */
     height: 80px; /* Высота шапки */
     width: 1600px; /* Ширина шапки */
     display: flex;
