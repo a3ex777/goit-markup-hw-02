@@ -1,17 +1,17 @@
 /* The main - top line section */
 .topline {
-    background-color: #ECECEC; /* Цвет фона */
+    background-color: #ececec; /* Цвет фона */
     padding: 0 20px; /* Отступы слева и справа */
     height: 80px; /* Высота шапки */
     width: 1600px; /* Ширина шапки */
     display: flex;
-}
-.topline-container {
+  }
+  .topline-container {
     display: flex;
     width: 100%; /* На всю ширину */
     max-width: 1200px; /* Максимальная ширина для контента */
-}
-.topline-logo {
+  }
+  .topline-logo {
     width: 145px;
     height: 31px;
     text-decoration: none;
@@ -20,8 +20,8 @@
     position: absolute;
     top: 24px;
     left: 215px;
-}
-.topline-menu {
+  }
+  .topline-menu {
     list-style: none;
     display: flex;
     width: 281px;
@@ -29,110 +29,108 @@
     position: absolute;
     top: 32px;
     left: 452px;
-}
-.topline-menu li {
+  }
+  .topline-menu li {
     margin: 0 15px;
-}
-.topline-menu-link {
+  }
+  .topline-menu-link {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-weight: 500;
-}
-.topline-menu-link:hover {
-    color: #2196F3;
-}
-.topline-menu-contacts {
-    list-style: none;    
+  }
+  .topline-menu-link:hover {
+    color: #2196f3;
+  }
+  .topline-menu-contacts {
+    list-style: none;
     width: 135px;
     height: 16px;
     position: absolute;
     top: 32px;
     left: 1078px;
-}
-.topline-list-contacts {
+  }
+  .topline-list-contacts {
     list-style: none;
     width: 122px;
     height: 16px;
     position: absolute;
     top: 32px;
     left: 1263px;
-}
-.topline-contact-link { 
+  }
+  .topline-contact-link {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-weight: 500;
-}
-.topline-contact-link:hover {
-    color: #2196F3;
-}
-/* The main - Cap section */
-.cap {
+  }
+  .topline-contact-link:hover {
+    color: #2196f3;
+  }
+  /* The main - Cap section */
+  .cap {
     width: 1600px;
     height: 600px;
-    background-color: #2F303A;
+    background-color: #2f303a;
     text-align: center;
-}
-.cap-title {
+  }
+  .cap-title {
     width: 696px;
     height: 120px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 44px;
     font-weight: 900;
     position: absolute;
     top: 280px;
     left: 452px;
-    
-}
-.cap-btn { 
+  }
+  .cap-btn {
     width: 216px;
     height: 50px;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: #2196f3;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     position: absolute;
     top: 430px;
     left: 692px;
-}
-
-
-/* The main - Features section */
-.features-list {
+  }
+  
+  /* The main - Features section */
+  .features-list {
     list-style: none;
-}
-/* The main - What do we do section */
-.whatwedo-item {
+  }
+  /* The main - What do we do section */
+  .whatwedo-item {
     list-style: none;
     display: inline;
-}
-/* The main - Staff section */
-.staff-list {
+  }
+  /* The main - Staff section */
+  .staff-list {
     list-style: none;
-}
-.staff-item {
+  }
+  .staff-item {
     list-style: none;
-}
-/* The main - Basement section */
-.basement-list {
+  }
+  /* The main - Basement section */
+  .basement-list {
     list-style: none;
-}
-            /* THE PORTFOLIO SECTION */
-/* The Portfolio - Topline section */
-.portfolio-topline {
-    background-color: #ECECEC; /* Цвет фона */
+  }
+  /* THE PORTFOLIO SECTION */
+  /* The Portfolio - Topline section */
+  .portfolio-topline {
+    background-color: #ececec; /* Цвет фона */
     padding: 0 20px; /* Отступы слева и справа */
     height: 80px; /* Высота шапки */
     width: 1600px; /* Ширина шапки */
     display: flex;
-}
-.portfolio-topline-container {
+  }
+  .portfolio-topline-container {
     display: flex;
     width: 100%; /* На всю ширину */
     max-width: 1200px; /* Максимальная ширина для контента */
-}
-.portfolio-topline-logo {
+  }
+  .portfolio-topline-logo {
     width: 145px;
     height: 31px;
     text-decoration: none;
@@ -141,8 +139,8 @@
     position: absolute;
     top: 24px;
     left: 215px;
-}
-.portfolio-topline-menu {
+  }
+  .portfolio-topline-menu {
     list-style: none;
     display: flex;
     width: 281px;
@@ -150,63 +148,63 @@
     position: absolute;
     top: 32px;
     left: 452px;
-}
-.portfolio-topline-menu li {
+  }
+  .portfolio-topline-menu li {
     margin: 0 15px;
-}
-.portfolio-topline-menu-link {
+  }
+  .portfolio-topline-menu-link {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-weight: 500;
-}
-.portfolio-topline-menu-link:hover {
-    color: #2196F3;
-}
-.portfolio-topline-menu-contacts {
-    list-style: none;    
+  }
+  .portfolio-topline-menu-link:hover {
+    color: #2196f3;
+  }
+  .portfolio-topline-menu-contacts {
+    list-style: none;
     width: 135px;
     height: 16px;
     position: absolute;
     top: 32px;
     left: 1078px;
-}
-.portfolio-topline-list-contacts {
+  }
+  .portfolio-topline-list-contacts {
     list-style: none;
     width: 122px;
     height: 16px;
     position: absolute;
     top: 32px;
     left: 1263px;
-}
-.portfolio-topline-contact-link { 
+  }
+  .portfolio-topline-contact-link {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-weight: 500;
-}
-.portfolio-topline-contact-link:hover {
-    color: #2196F3;
-}
-/* The Portfolio - Filters section */
-.portfolio-filters-list {
+  }
+  .portfolio-topline-contact-link:hover {
+    color: #2196f3;
+  }
+  /* The Portfolio - Filters section */
+  .portfolio-filters-list {
     display: flex;
-}
-.portfolio-filters-item {
+  }
+  .portfolio-filters-item {
     list-style: none;
-}
-/* The Portfolio - Filters section */
-.portfolio-project-list {
+  }
+  /* The Portfolio - Filters section */
+  .portfolio-project-list {
     list-style: none;
-}
-.portfolio-project-item {
+  }
+  .portfolio-project-item {
     list-style: none;
-}
-/* The Portfolio - Project section */
-.portfolio-project-item {
+  }
+  /* The Portfolio - Project section */
+  .portfolio-project-item {
     list-style: none;
-}
-/* The Portfolio - Basement section */
-.portfolio-basement-list {
+  }
+  /* The Portfolio - Basement section */
+  .portfolio-basement-list {
     list-style: none;
-}
+  }
