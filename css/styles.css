@@ -1,12 +1,101 @@
 /* The main - top line section */
-.topline-list {
+.topline {
+    background-color: #ECECEC; /* Цвет фона */
+    padding: 0 20px; /* Отступы слева и справа */
+    height: 80px; /* Высота шапки */
+    width: 1600px; /* Ширина шапки */
+    display: flex;
+}
+.topline-container {
+    display: flex;
+    width: 100%; /* На всю ширину */
+    max-width: 1200px; /* Максимальная ширина для контента */
+}
+.topline-logo {
+    width: 145px;
+    height: 31px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 24px;
+    left: 215px;
+}
+.topline-menu {
     list-style: none;
+    display: flex;
+    width: 281px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 452px;
+}
+.topline-menu li {
+    margin: 0 15px;
+}
+.topline-menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.topline-menu-link:hover {
+    color: #2196F3;
+}
+.topline-menu-contacts {
+    list-style: none;    
+    width: 135px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 1078px;
 }
 .topline-list-contacts {
     list-style: none;
+    width: 122px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 1263px;
+}
+.topline-contact-link { 
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.topline-contact-link:hover {
+    color: #2196F3;
 }
 /* The main - Cap section */
-
+.cap {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+    text-align: center;
+}
+.cap-title {
+    width: 696px;
+    height: 120px;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    position: absolute;
+    top: 280px;
+    left: 452px;
+    
+}
+.cap-btn { 
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 430px;
+    left: 692px;
+}
 
 
 /* The main - Features section */
@@ -31,11 +120,73 @@
 }
             /* THE PORTFOLIO SECTION */
 /* The Portfolio - Topline section */
-.portfolio-topline-list {
+.portfolio-topline {
+    background-color: #ECECEC; /* Цвет фона */
+    padding: 0 20px; /* Отступы слева и справа */
+    height: 80px; /* Высота шапки */
+    width: 1600px; /* Ширина шапки */
+    display: flex;
+}
+.portfolio-topline-container {
+    display: flex;
+    width: 100%; /* На всю ширину */
+    max-width: 1200px; /* Максимальная ширина для контента */
+}
+.portfolio-topline-logo {
+    width: 145px;
+    height: 31px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 24px;
+    left: 215px;
+}
+.portfolio-topline-menu {
     list-style: none;
+    display: flex;
+    width: 281px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 452px;
+}
+.portfolio-topline-menu li {
+    margin: 0 15px;
+}
+.portfolio-topline-menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.portfolio-topline-menu-link:hover {
+    color: #2196F3;
+}
+.portfolio-topline-menu-contacts {
+    list-style: none;    
+    width: 135px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 1078px;
 }
 .portfolio-topline-list-contacts {
     list-style: none;
+    width: 122px;
+    height: 16px;
+    position: absolute;
+    top: 32px;
+    left: 1263px;
+}
+.portfolio-topline-contact-link { 
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.portfolio-topline-contact-link:hover {
+    color: #2196F3;
 }
 /* The Portfolio - Filters section */
 .portfolio-filters-list {
