@@ -1,330 +1,158 @@
-/* The main - top line section */
-.topline {
-    background-color: #ececec; /* Цвет фона */
-    height: 80px; /* Высота шапки */
-    width: 1600px; /* Ширина шапки */
-    display: flex;
-  }
-  .topline-container {
-    display: flex;
-    width: 100%; /* На всю ширину */
-    max-width: 1200px; /* Максимальная ширина для контента */
-  }
-  .topline-logo {
-    width: 145px;
-    height: 31px;
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 700;
-    position: absolute;
-    top: 24px;
-    left: 215px;
-  }
-  .topline-menu {
-    list-style: none;
-    display: flex;
-    width: 281px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 452px;
-  }
-  .topline-menu li {
-    margin: 0 15px;
-  }
-  .topline-menu-link {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .topline-menu-link:hover {
-    color: #2196f3;
-  }
-  .topline-menu-contacts {
-    list-style: none;
-    width: 135px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 1078px;
-  }
-  .topline-list-contacts {
-    list-style: none;
-    width: 122px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 1263px;
-  }
-  .topline-contact-link {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .topline-contact-link:hover {
-    color: #2196f3;
-  }
-  /* The main - Cap section */
-  .cap {
-    width: 1600px;
-    height: 600px;
-    background-color: #2f303a;
-    text-align: center;
-  }
-  .cap-title {
-    width: 696px;
-    height: 120px;
-    color: #ffffff;
-    font-size: 44px;
-    font-weight: 900;
-    position: absolute;
-    top: 280px;
-    left: 452px;
-  }
-  .cap-btn {
-    width: 216px;
-    height: 50px;
-    background-color: #2196f3;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    position: absolute;
-    top: 430px;
-    left: 692px;
-  }
-  
-  /* The main - Features section */
-  .features { 
-    width: 1170px;
-    height: 98px;
-    display: flex;
-  }
-  .features-list-detiles { 
-    width: 270px;
-    height: 98px;
-    position: absolute;
-    top: 774px;
-    left: 215px;
-    list-style: none;
-  }
-  .features-item-detiles h3 { 
-    width: 270px;
-    height: 16px;
-    font-size: 14px;
-    font-weight: 700;
-    color: #212121;
-  }
-  .features-item-detiles p { 
-    font-size: 14px;
-    font-weight: 400;
-    width: 270px;
-    height: 72px;
-    color: #757575;
-   }
-  .features-list-punctuality { 
-  width: 270px;
-  height: 74px;
-  position: absolute;
-  top: 774px;
-  left: 515px;
+:root {
+  /* Text colors */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196F3;
+  --secondary-text-color: #FFFFFF;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  /* Background colors */
+  --primary-background-color: #EEEEEE;
+  --secondary-background-color: #F5F4FA;
+  --footer-background-color: #2F303A;
+  --header-background-color: #ECECEC;
+  /* Button background colors */
+  --primary-btn-background-color: #2196F3;
+  --secondary-btn-background-color: #F5F4FA;
+
+  --letter-spacing: 0.03em;
+}
+
+              /* GENERAL STYLES*/
+
+.page { 
+  background-color: var(--primary-background-color);
+  letter-spacing: var(--letter-spacing)
+}
+.link { 
+  text-decoration: none;
+}
+.text {
+  color: var(--primary-text-color);
+}
+.title {
+  color: var(--title-text-color);
+}
+.list { 
   list-style: none;
- }
-  .features-item-punctuality h3 { 
-  width: 270px;
-  height: 16px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #212121;
- }
-  .features-item-punctuality p { 
-  font-size: 14px;
-  font-weight: 400;
-  width: 270px;
-  height: 48px;
-  color: #757575;
- }
-  .features-list-planning { 
-    width: 270px;
-    height: 74px;
-    position: absolute;
-    top: 774px;
-    left: 815px;
-    list-style: none;
- }
-  .features-item-planning h3 { 
-    width: 270px;
-    height: 16px;
-    font-size: 14px;
-    font-weight: 700;
-    color: #212121;
- }
-  .features-item-planning p { 
-    font-size: 14px;
-    font-weight: 400;
-    width: 270px;
-    height: 48px;
-    color: #757575;
- }
-  .features-list-technologi { 
-    width: 270px;
-    height: 98px;
-    position: absolute;
-    top: 774px;
-    left: 1115px;
-    list-style: none;
- }
-  .features-item-technologi h3 { 
-    width: 270px;
-    height: 16px;
-    font-size: 14px;
-    font-weight: 700;
-    color: #212121;
-  }
-  .features-item-technologi p { 
-    font-size: 14px;
-    font-weight: 400;
-    width: 270px;
-    height: 72px;
-    color: #757575;
-  }
-  /* The main - What do we do section */
-  .whatwedo { 
-    width: 1170px;
-    height: 386px;
-    display: flex;
-  } 
-  .whatwedo-list { 
-    list-style: none;
-  }
-  .whatwedo-title { 
-    width: 366px;
-    height: 42px;
-    position: absolute;
-    top: 966px;
-    left: 671px;
-    font-size: 36px;
-    font-weight: 700;
-    color: #212121;
-  }
-  .whatwedo-item-coding { 
-    list-style: none;
-    position: absolute;
-    top: 1058px;
-    left: 215px;
-  }
-  .whatwedo-item-adaptiv { 
-    list-style: none;
-    position: absolute;
-    top: 1058px;
-    left: 615px;
-  }
-  .whatwedo-item-colors { 
-    list-style: none;
-    position: absolute;
-    top: 1058px;
-    left: 1015px;
-  }
-  /* The main - Staff section */
-  .staff-list {
-    list-style: none;
-  }
-  .staff-item {
-    list-style: none;
-  }
-  /* The main - Basement section */
-  .basement-list {
-    list-style: none;
-  }
-  /* THE PORTFOLIO SECTION */
-  /* The Portfolio - Topline section */
-  .portfolio-topline {
-    background-color: #ececec; /* Цвет фона */
-    height: 80px; /* Высота шапки */
-    width: 1600px; /* Ширина шапки */
-    display: flex;
-  }
-  .portfolio-topline-container {
-    display: flex;
-    width: 100%; /* На всю ширину */
-    max-width: 1200px; /* Максимальная ширина для контента */
-  }
-  .portfolio-topline-logo {
-    width: 145px;
-    height: 31px;
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 700;
-    position: absolute;
-    top: 24px;
-    left: 215px;
-  }
-  .portfolio-topline-menu {
-    list-style: none;
-    display: flex;
-    width: 281px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 452px;
-  }
-  .portfolio-topline-menu li {
-    margin: 0 15px;
-  }
-  .portfolio-topline-menu-link {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .portfolio-topline-menu-link:hover {
-    color: #2196f3;
-  }
-  .portfolio-topline-menu-contacts {
-    list-style: none;
-    width: 135px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 1078px;
-  }
-  .portfolio-topline-list-contacts {
-    list-style: none;
-    width: 122px;
-    height: 16px;
-    position: absolute;
-    top: 32px;
-    left: 1263px;
-  }
-  .portfolio-topline-contact-link {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .portfolio-topline-contact-link:hover {
-    color: #2196f3;
-  }
-  /* The Portfolio - Filters section */
-  .portfolio-filters-list {
-    display: flex;
-  }
-  .portfolio-filters-item {
-    list-style: none;
-  }
-  /* The Portfolio - Filters section */
-  .portfolio-project-list {
-    list-style: none;
-  }
-  .portfolio-project-item {
-    list-style: none;
-  }
-  /* The Portfolio - Project section */
-  .portfolio-project-item {
-    list-style: none;
-  }
-  /* The Portfolio - Basement section */
-  .portfolio-basement-list {
-    list-style: none;
-  }
+}
+        /* Section header styles */ 
+/* logo */
+.page-header {
+  background-color: var(--header-background-color);
+}
+.header-logo { 
+  color: var(--title-text-color);
+}
+.header-logo.span {
+  color: var(--accent-text-color);
+}
+/*Section nav link styles - contacts link styles*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .active { 
+  color: var(--accent-text-color); /* Подсветка страницы где находимся */
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.contacts-nav .link { 
+  color: var(--primary-text-color);
+}
+        /* Section footer styles */
+/* footer background styles */
+
+.footer { 
+  width: 100%;
+  height: 252px;
+  background-color: var(--footer-background-color);
+}
+/* logo styles */
+
+.footer-logo {
+  color: var(--secondary-text-color);
+}
+.footer-logo.span {
+  color: var(--accent-text-color);
+}
+
+/* footer link styles */
+.footer.address {
+  color: var(--secondary-text-color);
+}
+.footer.mail {
+  color: var(--contacts-text-color);
+}
+.footer.number {
+  color: var(--contacts-text-color);
+}
+.footer.link:focus,
+.footer.link:hover { 
+  color: var(--accent-text-color);
+}
+              /* MAIN PAGE STYLES  */
+        /* Section hero styles */
+
+.hero-conteiner{
+  width: 100%;
+  height: 600px;
+  background-color: var(--footer-background-color);
+}
+.hero.title { 
+  color: var(--secondary-text-color);
+}
+.hero-btn { 
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--primary-btn-background-color);
+  color: var(--secondary-text-color);
+}
+        /* Section advant styles*/
+
+
+
+        /* Section what we do styles */
+
+
+
+
+        /* Section our team styles */
+
+
+
+
+
+              /* PORTFOLIO PAGE STYLES  */
+        /* Section filters styles */
+.filters-btn { 
+  height: 38px;
+  border-radius: 4px;
+  background-color: var(--secondary-btn-background-color);
+  color: var(--title-text-color);
+}
+.filters-btn:hover,
+.filters-btn:focus,
+.filters-btn:active {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-btn-background-color);
+}
+.filters-btn.all { 
+  width: 73px;
+}
+.filters-btn.website { 
+  width: 125px;
+}
+.filters-btn.appendices { 
+  width: 112px;
+}
+.filters-btn.design { 
+  width: 103px;
+}
+.filters-btn.marketing { 
+  width: 130px;
+}
