@@ -14,14 +14,18 @@
   --primary-btn-background-color: #2196F3;
   --secondary-btn-background-color: #F5F4FA;
 
-  --letter-spacing: 0.03em;
+  --primary-letter-spacing: 0.03em;
+  --nav-letter-spacing: 0.02em;
+  --secondary-letter-spacing: 0.06em;
 }
 
               /* GENERAL STYLES*/
 
 .page { 
   background-color: var(--primary-background-color);
-  letter-spacing: var(--letter-spacing)
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: var(--primary-letter-spacing);
 }
 .link { 
   text-decoration: none;
@@ -30,6 +34,14 @@
   color: var(--primary-text-color);
 }
 .title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--title-text-color);
+
+  line-height: 1.17;
+}
+.subtitle { 
   color: var(--title-text-color);
 }
 .list { 
@@ -41,7 +53,12 @@
   background-color: var(--header-background-color);
 }
 .header-logo { 
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
   color: var(--title-text-color);
+
+  line-height: 1.15;
 }
 .header-logo.span {
   color: var(--accent-text-color);
@@ -49,7 +66,12 @@
 /*Section nav link styles - contacts link styles*/
 
 .site-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: var(--nav-letter-spacing);
   color: var(--title-text-color);
+
+  line-height: 1.14;
 }
 .site-nav .active { 
   color: var(--accent-text-color); /* Подсветка страницы где находимся */
@@ -60,8 +82,13 @@
 .contacts-nav .link:focus {
   color: var(--accent-text-color);
 }
-.contacts-nav .link { 
+.contacts-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: var(--nav-letter-spacing);
   color: var(--primary-text-color);
+
+  line-height: 1.14;
 }
         /* Section footer styles */
 /* footer background styles */
@@ -74,13 +101,24 @@
 /* logo styles */
 
 .footer-logo {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Raleway, sans-serif;
   color: var(--secondary-text-color);
+
+  line-height: 1.15;
 }
 .footer-logo.span {
   color: var(--accent-text-color);
 }
 
 /* footer link styles */
+.footer.link {
+  font-size: 14px;
+  font-weight: 400;
+
+  line-height: 1.71;
+}
 .footer.address {
   color: var(--secondary-text-color);
 }
@@ -103,18 +141,40 @@
   background-color: var(--footer-background-color);
 }
 .hero.title { 
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: var(--secondary-letter-spacing);
+  text-align: center;
   color: var(--secondary-text-color);
+
+  line-height: 1.36;
 }
 .hero-btn { 
   width: 216px;
   height: 50px;
+  line-height: 1.87;
   border-radius: 4px;
   background-color: var(--primary-btn-background-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: var(--secondary-letter-spacing);
+  text-align: center;
   color: var(--secondary-text-color);
 }
         /* Section advant styles*/
+.advant.subtitle {
+  font-size: 14px;
 
+  line-height: 1.14;
+}
+.advant.text { 
+  font-size: 14px;
 
+  line-height: 1.71;
+}
 
         /* Section what we do styles */
 
@@ -122,23 +182,41 @@
 
 
         /* Section our team styles */
+.ourteam .subtitle{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
 
+  line-height: 1.12;
+}
+.ourteam .text {
+  font-size: 16px;
+  text-align: center;
 
-
-
+  line-height: 1.12;
+}
 
               /* PORTFOLIO PAGE STYLES  */
         /* Section filters styles */
-.filters-btn { 
+.filters-btn {
   height: 38px;
   border-radius: 4px;
-  background-color: var(--secondary-btn-background-color);
+  line-height: 1.6;
+  cursor: pointer;
+  background-color: var(--secondary-btn-background-color); 
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: var(--primary-letter-spacing);
+  text-align: center;
   color: var(--title-text-color);
 }
 .filters-btn:hover,
 .filters-btn:focus,
 .filters-btn:active {
   color: var(--secondary-text-color);
+
   background-color: var(--primary-btn-background-color);
 }
 .filters-btn.all { 
@@ -155,4 +233,17 @@
 }
 .filters-btn.marketing { 
   width: 130px;
+}
+
+        /* Section filters projects img styles */
+.portfolio-img .subtitle {
+  font-size: 18px;
+  letter-spacing: var(--secondary-letter-spacing);
+
+  line-height: 2;
+}
+.portfolio-img .text { 
+  font-size: 16px;
+
+  line-height: 1.87;
 }
