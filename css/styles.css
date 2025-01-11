@@ -35,7 +35,6 @@
 }
 .title {
   font-size: 36px;
-  font-weight: 700;
   text-align: center;
   color: var(--title-text-color);
 
@@ -115,7 +114,6 @@
 /* footer link styles */
 .footer.link {
   font-size: 14px;
-  font-weight: 400;
 
   line-height: 1.71;
 }
@@ -164,6 +162,13 @@
   text-align: center;
   color: var(--secondary-text-color);
 }
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+  color: var(--title-text-color);
+
+  background-color: var(--secondary-btn-background-color);
+}
         /* Section advant styles*/
 .advant.subtitle {
   font-size: 14px;
@@ -198,6 +203,10 @@
 
               /* PORTFOLIO PAGE STYLES  */
         /* Section filters styles */
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+}
 .filters-btn {
   height: 38px;
   border-radius: 4px;
